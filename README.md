@@ -33,6 +33,22 @@ The questions that this study aims to address are outlined as follows:
     ▪️ Which of the four demand-side components (private investment, private consumption, imports, and exports) of GDP exhibited a strong correlation with the newly constructed news sentiment index, and which of the components showed a weak correlation to the index?
 
 
+#### 📌 Aim and Objectives 
+
+#### Aim:
+
+    To assess the role of Mandarin news sentiment in forecasting Malaysia's GDP and its four demand components: private investment, private consumption, imports, and exports using machine learning techniques.
+
+#### Objectives: 
+
+    ▪️ To evaluate the effectiveness of Mandarin news sentiment in predicting Business Confidence Index (BCI) and Consumer Sentiment Index (CSI).
+    
+    ▪️ To compare the predictive performance of Mandarin news sentiment with English news sentiment as reported by previous studies.
+    
+    ▪️ To determine the correlation between GDP's demand-side components and the constructed news sentiment index.
+
+
+
 
     
 
