@@ -32,7 +32,7 @@ The questions that this study aims to address are outlined as follows:
     
     ▪️ Which of the four demand-side components (private investment, private consumption, imports, and exports) of GDP exhibited a strong correlation with the newly constructed news sentiment index, and which of the components showed a weak correlation to the index?
 
-    ⚠️ Note: The work of Chong et al. (2021) could be found [here](https://www.bis.org/ifc/publ/ifcb57_17.pdf). 
+⚠️ Note: The work of Chong et al. (2021) could be found [here](https://www.bis.org/ifc/publ/ifcb57_17.pdf). 
 
 
 
@@ -246,5 +246,28 @@ Modelling with Hyperparameter Tuning:
     
     ▪️ Performance Evaluation for Machine Learning Models With Hyperparameter Tuning: Hyperparameter tuning improved performance in some models. LASSO and Random Forest performed well, especially for private consumption and private investment.
 
+---
+
+### CHAPTER 6: DISCUSSION AND CONCLUSIONS
+
+#### 📌 6.1 Discussion of Nowcasting Findings
+
+    ▪️ BCI: The sentiment index significantly predicted BCI, confirming its alignment with business confidence. No multicollinearity issues were found.
+
+    ▪️ CSI: The sentiment index failed to predict CSI, showing weak correlation and poor model performance, similar to previous studies.
 
 
+#### 📌 6.2 Discussion of Forecasting Findings
+    
+    ▪️ Pearson Correlation: Sentiment had weak or negative correlations with most macroeconomic variables, particularly GDP and imports.
+
+    ▪️ Pearson Correlation: Sentiment had weak or negative correlations with most macroeconomic variables, particularly GDP and imports.
+
+
+#### 📌 6.3 Conclusions
+    
+    ▪️ Mandarin-based news sentiment proved useful for forecasting business confidence (BCI) but was less effective for predicting consumer sentiment (CSI) and other macroeconomic variables like GDP and imports.
+
+    ▪️ While LASSO and Random Forest models performed well, particularly for private consumption and investment, the overall weak correlations highlight the limitations of using a single news source and a short timeframe.
+
+    ▪️ Future research should expand data sources, extend the analysis period, and explore additional models to improve forecasting accuracy across more economic variables.
