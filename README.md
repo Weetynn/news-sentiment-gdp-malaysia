@@ -190,10 +190,32 @@ The first stage of Business Understanding has been previously addressed in Chapt
     ▪️ Time Series and Regression: Time series plotting and regression analysis were conducted to nowcast BCI and CSI values. Actual vs predicted values were plotted, and multicollinearity checks were performed to ensure model validity.
 
   
+#### 📌 4.9 Evaluating the Pearson Correlation Between the Macroeconomics Variables and the News Sentiment Index
 
-
-
+    ▪️ Data Preparation: Quarterly sentiment index data was loaded from the CSV file. It was then merged with the macroeconomic data (imports, exports, GDP, private consumption, private investment) based on Date and Quarter columns.
     
+    ▪️ Pearson Correlation: Pearson correlation coefficients were computed to evaluate the relationship between the sentiment index and each macroeconomic variable.
+
+
+#### 📌 4.10 Modelling Process for Forecasting the Five Target Variables Using Machine Learning Models
+
+Modelling without Hyperparameter Tuning:
+
+    ▪️ Initialization: RMSE and MAE functions were defined. Models such as Linear Regression, LASSO, Ridge, SVR, Random Forest, and XGBoost were used for forecasting. The data was prepared with a 4-quarter rolling window approach.
+    
+    ▪️ Rolling Window Approach: This approach was applied to train and test the models across forecast horizons (1, 2, 3 quarters). RMSE and MAE were computed and stored for each model and variable.
+
+    ▪️ Results Display: RMSE and MAE ratios were plotted and analyzed for each model and forecast horizon.
+    
+Modelling with Hyperparameter Tuning:
+
+    ▪️ Initialization and Tuning: Hyperparameter tuning using Grid Search was conducted for LASSO, Ridge, SVR, Random Forest, and XGBoost. Best models were then used in a rolling window approach.
+    
+    ▪️ Results Display: Performance evaluation based on RMSE and MAE ratios was presented, comparing tuned models to baseline results.
+    
+
+
+
 
 
 
