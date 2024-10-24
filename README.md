@@ -212,11 +212,39 @@ Modelling with Hyperparameter Tuning:
     ▪️ Initialization and Tuning: Hyperparameter tuning using Grid Search was conducted for LASSO, Ridge, SVR, Random Forest, and XGBoost. Best models were then used in a rolling window approach.
     
     ▪️ Results Display: Performance evaluation based on RMSE and MAE ratios was presented, comparing tuned models to baseline results.
-    
+
+---
+
+### CHAPTER 5: RESULTS AND ANALYSIS
+
+#### 📌 5.1 Nowcasting the BCI and CSI Figures Using the News Sentiment Index
+
+![Screenshot 2024-10-24 201102](https://github.com/user-attachments/assets/dd0107d7-250e-4d76-a0ca-5b1ce5f745b6)
+
+    ▪️ Time Series Plot: Shows the relationship between the News Sentiment Index and MIER’s BCI and CSI from 2022 Q1 to 2023 Q4. The sentiment index trends upward with some alignment to BCI, but both indices exhibit volatility, with weak correlations between sentiment and the economic indices.
+
+![Screenshot 2024-10-24 201616](https://github.com/user-attachments/assets/e8d790e4-7d20-4146-a0b2-787472a49310)
+
+![Screenshot 2024-10-24 201440](https://github.com/user-attachments/assets/da1b06e8-5c6a-4289-bb93-bf9ac1f9b96d)   
+
+    ▪️ Regression Output for Nowcasting BCI: The regression model explained 69.7% of the variance in BCI values (R-squared = 0.697). The quarterly sentiment index negatively correlated with BCI, which was unexpected. Lagged BCI was not significant.
+
+![Screenshot 2024-10-24 201825](https://github.com/user-attachments/assets/0121174b-17c5-44db-8ccd-8ea5a1529354)
+
+![Screenshot 2024-10-24 201901](https://github.com/user-attachments/assets/a942a265-7426-4761-b5af-37829155f76f)
+
+  ▪️ Regression Output for Nowcasting CSI: The model for CSI performed poorly with very weak correlations, indicating the sentiment index was not predictive of consumer sentiment.
+
+
+#### 📌 5.2 Forecasting the Five Target Variables Using the News Sentiment Index
 
 
 
+5.2.1 Pearson Correlation: Correlation between the sentiment index and the five macroeconomic variables (GDP, private consumption, private investment, imports, and exports) was calculated. Most correlations were weak or negative.
 
+5.2.2 Performance Evaluation for Machine Learning Models Without Hyperparameter Tuning: Various models (LASSO, Ridge, Random Forest, etc.) were used in a rolling window approach to forecast the five variables. The results were evaluated using RMSE and MAE ratios.
+
+5.2.3 Performance Evaluation for Machine Learning Models With Hyperparameter Tuning: Hyperparameter tuning improved performance in some models. LASSO and Random Forest performed well, especially for private consumption and private investment.
 
 
 
