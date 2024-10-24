@@ -7,7 +7,7 @@ This study examines the role of Mandarin news sentiment in forecasting Malaysia'
 
 ### CHAPTER 1: INTRODUCTION
 
-#### 📌 Problem Statements
+#### 📌 1.1 Problem Statements
 
     ▪️ Macroeconomic indicators like GDP are reported with a 90-day delay in Malaysia, limiting timely decision-making.
     
@@ -22,7 +22,7 @@ This study examines the role of Mandarin news sentiment in forecasting Malaysia'
     ▪️ Although high-frequency indicators are used in nowcasting, the study applies them to a quarterly forecasting task due to the available data.
 
 
-#### 📌 Project Questions
+#### 📌 1.2 Project Questions
 
 The questions that this study aims to address are outlined as follows: 
 
@@ -32,10 +32,11 @@ The questions that this study aims to address are outlined as follows:
     
     ▪️ Which of the four demand-side components (private investment, private consumption, imports, and exports) of GDP exhibited a strong correlation with the newly constructed news sentiment index, and which of the components showed a weak correlation to the index?
 
-##### ⚠️ Note: The work of Chong et al. (2021) could be found [here](https://www.bis.org/ifc/publ/ifcb57_17.pdf). 
+    ⚠️ Note: The work of Chong et al. (2021) could be found [here](https://www.bis.org/ifc/publ/ifcb57_17.pdf). 
 
 
-#### 📌 Aim and Objectives 
+
+#### 📌 1.3 Aim and Objectives 
 
 #### Aim:
 
@@ -51,7 +52,7 @@ The questions that this study aims to address are outlined as follows:
     ▪️ To determine the correlation between GDP's demand-side components and the constructed news sentiment index.
     
 
-#### 📌 Scope of the Study 
+#### 📌 1.4 Scope of the Study 
 
     ▪️ Macroeconomic indicators like GDP are reported with a 90-day delay in Malaysia, limiting timely decision-making.
     
@@ -66,7 +67,7 @@ The questions that this study aims to address are outlined as follows:
     ▪️ Although high-frequency indicators are used in nowcasting, the study applies them to a quarterly forecasting task due to the available data.
     
 
-#### 📌 Significance of the Study 
+#### 📌 1.5 Significance of the Study 
 
     ▪️ Fills gap in sentiment analysis, focusing on Mandarin in multilingual, multiethnic contexts.
     
@@ -75,7 +76,6 @@ The questions that this study aims to address are outlined as follows:
     ▪️ Enhances local forecasting of macroeconomic variables using news sentiment in Malaysia.
 
     ▪️ Aims to help policymakers improve economic trend forecasts for Malaysia's specific dynamics.
-
 
 ---
 
@@ -91,7 +91,7 @@ Provides a foundation for understanding the scope of the study and highlights ex
     
     ▪️ A review of the work by Chong et al. (2021), which forms the basis for this study.
 
-#### 📌 Forecasting Key Economic Indicators through News Sentiments
+#### 📌 2.1 Forecasting Key Economic Indicators through News Sentiments
 
     ▪️ News sentiment has been widely used for forecasting GDP, inflation, and unemployment.
     
@@ -100,7 +100,7 @@ Provides a foundation for understanding the scope of the study and highlights ex
     ▪️ Researchers have recommended broader exploration of big data indicators and textual data, especially in multiple languages.
     
 
-#### 📌 Multilingual Sentiment Analysis (Emphasis on Chinese Texts)
+#### 📌 2.2 Multilingual Sentiment Analysis (Emphasis on Chinese Texts)
 
     ▪️ There is significant work in sentiment analysis across various languages, but economic and financial texts in Chinese remain underexplored.
     
@@ -109,14 +109,14 @@ Provides a foundation for understanding the scope of the study and highlights ex
     ▪️ Financial sentiment analysis in Chinese is scarce, highlighting the need for further research in this domain.
 
 
-#### 📌 Review of Machine Learning Models for Sentiment Analysis
+#### 📌 2.3 Review of Machine Learning Models for Sentiment Analysis
 
     ▪️ Machine learning models like Random Forest, Gradient Boosting, and LASSO show superior performance in economic forecasting.
     
     ▪️ Ensemble methods often yield more accurate results than individual models, especially for non-linear relationships and high-dimensional data.
 
     
-#### 📌 Chong et al. (2021) and News Sentiment for Macroeconomic Forecasting
+#### 📌 2.4 Chong et al. (2021) and News Sentiment for Macroeconomic Forecasting
 
     ▪️ Chong et al.’s work, which focuses on using news sentiment for economic forecasting in Malaysia, serves as a benchmark for this thesis.
     
@@ -134,7 +134,7 @@ The first stage of Business Understanding has been previously addressed in Chapt
 
 ### CHAPTER 4: IMPLEMENTATION
 
-#### 📌 Data Collection Process
+#### 📌 4.1 Data Collection Process
 
     ▪️ MIER Dataset: BCI and CSI data for 2022-2023 were purchased from the Malaysian Institute of Economic Research (MIER).
     
@@ -143,28 +143,53 @@ The first stage of Business Understanding has been previously addressed in Chapt
     ▪️ News Articles: A total of 3,361 articles from See Hua Daily News were scraped using ParseHub due to limitations with other news portals.
 
 
-#### 📌 Initialization of the Data Analysis Process
+#### 📌 4.2 Initialization of the Data Analysis Process
 
     ▪️ Data Loading: Collected datasets (BCI, CSI, macroeconomic indicators, news articles) were loaded into Visual Studio Code for processing.
 
 
-#### 📌 Initial Exploratory Data Analysis of the Textual Dataset
+#### 📌 4.3 Initial Exploratory Data Analysis of the Textual Dataset
 
     ▪️ Exploration and Cleaning: The structure of the news articles dataset was explored, missing data was cleaned, and irrelevant columns were removed.
     
     ▪️ Preliminary Dataset Structure: The data was reviewed after preliminary cleaning to confirm its readiness for further analysis.
 
 
-#### 📌 Initial Exploratory Data Analysis of the Numerical Datasets
+#### 📌 4.4 Initial Exploratory Data Analysis of the Numerical Datasets
 
     ▪️ Exploration of BCI, CSI, and Macroeconomic Data: The structure of BCI, CSI, and macroeconomic datasets was examined. Outliers were checked, and summary statistics were generated for further analysis.
     
+    
+#### 📌 4.5 Preprocessing Steps for the Textual Dataset
+
+    ▪️ Tasks: Data cleaning, including stripping whitespace, converting Chinese dates to standard format, and performing text normalization.
+    
+    ▪️ Text Processing: Sentiment dictionary and stop words were loaded, and text preprocessing was completed to prepare the data for sentiment analysis.
+    
+
+#### 📌 4.6 Exploratory Data Analysis (EDA) of the Preprocessed Textual Dataset
+
+    ▪️ Verification and Saving: The preprocessed textual data was verified and saved in CSV format for further analysis.
+    
+
+#### 📌 4.7 Computation of the News Sentiment Index
+
+    ▪️ Sentiment Analysis: The sentiment index was calculated by analyzing the sentiment scores of each news article.
+
+    ▪️ Sentiment Score Calculation: Each article's sentiment score was determined by subtracting the count of negative words from positive words, normalized by the total word count, and multiplied by 1000 to create a normalized score.
+
+    ▪️ Normalization: This calculation results in a net count per thousand words, where values above 100 indicate positive sentiment and values below 100 indicate negative sentiment.
+
+    ▪️ Quarterly Index: The sentiment scores were aggregated on a quarterly basis, scaled by the number of articles per quarter, and averaged across all news portals to create the final quarterly sentiment index.
 
 
+#### 📌 4.8 Nowcasting BCI and CSI Figures Using the News Sentiment Index
 
+    ▪️ Data Preparation: The sentiment index was merged with BCI and CSI data for regression analysis.
+    
+    ▪️ Time Series and Regression: Time series plotting and regression analysis were conducted to nowcast BCI and CSI values. Actual vs predicted values were plotted, and multicollinearity checks were performed to ensure model validity.
 
-
-
+  
 
 
 
