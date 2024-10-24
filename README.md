@@ -233,18 +233,18 @@ Modelling with Hyperparameter Tuning:
 
 ![Screenshot 2024-10-24 201901](https://github.com/user-attachments/assets/a942a265-7426-4761-b5af-37829155f76f)
 
-  ▪️ Regression Output for Nowcasting CSI: The model for CSI performed poorly with very weak correlations, indicating the sentiment index was not predictive of consumer sentiment.
+    ▪️ Regression Output for Nowcasting CSI: The model for CSI performed poorly with very weak correlations, indicating the sentiment index was not predictive of consumer sentiment.
 
 
 #### 📌 5.2 Forecasting the Five Target Variables Using the News Sentiment Index
 
+![Screenshot 2024-10-24 202523](https://github.com/user-attachments/assets/7b463c30-2117-4832-9c7f-41b9747f8008)
 
+    ▪️ Pearson Correlation: Correlation between the sentiment index and the five macroeconomic variables (GDP, private consumption, private investment, imports, and exports) was calculated. Most correlations were weak or negative.
 
-5.2.1 Pearson Correlation: Correlation between the sentiment index and the five macroeconomic variables (GDP, private consumption, private investment, imports, and exports) was calculated. Most correlations were weak or negative.
-
-5.2.2 Performance Evaluation for Machine Learning Models Without Hyperparameter Tuning: Various models (LASSO, Ridge, Random Forest, etc.) were used in a rolling window approach to forecast the five variables. The results were evaluated using RMSE and MAE ratios.
-
-5.2.3 Performance Evaluation for Machine Learning Models With Hyperparameter Tuning: Hyperparameter tuning improved performance in some models. LASSO and Random Forest performed well, especially for private consumption and private investment.
+    ▪️ Performance Evaluation for Machine Learning Models Without Hyperparameter Tuning: Various models (LASSO, Ridge, Random Forest, etc.) were used in a rolling window approach to forecast the five variables. The results were evaluated using RMSE and MAE ratios.
+    
+    ▪️ Performance Evaluation for Machine Learning Models With Hyperparameter Tuning: Hyperparameter tuning improved performance in some models. LASSO and Random Forest performed well, especially for private consumption and private investment.
 
 
 
