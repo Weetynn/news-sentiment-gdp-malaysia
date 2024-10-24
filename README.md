@@ -13,7 +13,7 @@ This study examines the role of Mandarin news sentiment in forecasting Malaysia'
     
     ▪️ The COVID-19 pandemic highlighted the need for real-time economic insights, as traditional indicators like GDP were too slow to capture rapid economic changes.
     
-    ▪️ Survey-based indices like BCI and CSI often provide incomplete or biased data during economic downturns due to low response rates.
+    ▪️ Survey-based indices like Business Condition Index (BCI) and CSI (Consumer Sentiment Index) often provide incomplete or biased data during economic downturns due to low response rates.
 
     ▪️ Most research focuses on English-language news sentiment, overlooking non-English sources like Mandarin, which is significant in Malaysia's multilingual context.
     
@@ -22,10 +22,18 @@ This study examines the role of Mandarin news sentiment in forecasting Malaysia'
     ▪️ Although high-frequency indicators are used in nowcasting, the study applies them to a quarterly forecasting task due to the available data.
 
 
+#### 📌 Project Questions
+
+The questions that this study aims to address are outlined as follows: 
+
+    ▪️ Does the news sentiment index which is computed in the study accurately reflect the BCI and CSI published by the MIER?
+    
+    ▪️ How was the performance of the Mandarin text-derived news sentiment when compared to the English text-derived news sentiment in the work of Chong et al. (2021)?
+    
+    ▪️ Which of the four demand-side components (private investment, private consumption, imports, and exports) of GDP exhibited a strong correlation with the newly constructed news sentiment index, and which of the components showed a weak correlation to the index?
+
 
 
     
-
-
 
 
