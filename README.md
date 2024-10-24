@@ -122,10 +122,13 @@ Provides a foundation for understanding the scope of the study and highlights ex
     
     ▪️ Their research emphasizes the importance of using multiple lexicons and advanced techniques for sentiment scoring and economic forecasting.
 
+---
 
+### CHAPTER 3: PROJECT METHODOLOGY 
 
+The study follows the Cross-Industry Standard Process for Data Mining (CRISP-DM), which includes six stages: Business Understanding, Data Understanding, Data Preparation, Modelling, Evaluation, and Deployment.
 
-
+The first stage of Business Understanding has been previously addressed in Chapter 1, covering the aims and objectives of the study. The deployment stage will not be included in this study, and details of the remaining four stages — Data Understanding, Data Preparation, Modelling, and Evaluation—will be further elaborated in Chapter 4.
 
 
 
