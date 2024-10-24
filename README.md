@@ -130,6 +130,38 @@ The study follows the Cross-Industry Standard Process for Data Mining (CRISP-DM)
 
 The first stage of Business Understanding has been previously addressed in Chapter 1, covering the aims and objectives of the study. The deployment stage will not be included in this study, and details of the remaining four stages — Data Understanding, Data Preparation, Modelling, and Evaluation—will be further elaborated in Chapter 4.
 
+---
+
+### CHAPTER 4: IMPLEMENTATION
+
+#### 📌 Data Collection Process
+
+    ▪️ MIER Dataset: BCI and CSI data for 2022-2023 were purchased from the Malaysian Institute of Economic Research (MIER).
+    
+    ▪️ Macroeconomics Dataset: Data for GDP, private consumption, private investment, imports, and exports were sourced from the Department of Statistics Malaysia (OpenDOSM).
+    
+    ▪️ News Articles: A total of 3,361 articles from See Hua Daily News were scraped using ParseHub due to limitations with other news portals.
+
+
+#### 📌 Initialization of the Data Analysis Process
+
+    ▪️ Data Loading: Collected datasets (BCI, CSI, macroeconomic indicators, news articles) were loaded into Visual Studio Code for processing.
+
+
+#### 📌 Initial Exploratory Data Analysis of the Textual Dataset
+
+    ▪️ Exploration and Cleaning: The structure of the news articles dataset was explored, missing data was cleaned, and irrelevant columns were removed.
+    
+    ▪️ Preliminary Dataset Structure: The data was reviewed after preliminary cleaning to confirm its readiness for further analysis.
+
+
+#### 📌 Initial Exploratory Data Analysis of the Numerical Datasets
+
+    ▪️ Exploration of BCI, CSI, and Macroeconomic Data: The structure of BCI, CSI, and macroeconomic datasets was examined. Outliers were checked, and summary statistics were generated for further analysis.
+    
+
+
+
 
 
 
