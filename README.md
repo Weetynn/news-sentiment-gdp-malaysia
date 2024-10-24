@@ -35,7 +35,6 @@ The questions that this study aims to address are outlined as follows:
 ⚠️ Note: The work of Chong et al. (2021) could be found [here](https://www.bis.org/ifc/publ/ifcb57_17.pdf). 
 
 
-
 #### 📌 1.3 Aim and Objectives 
 
 #### Aim:
@@ -271,3 +270,10 @@ Modelling with Hyperparameter Tuning:
     ▪️ While LASSO and Random Forest models performed well, particularly for private consumption and investment, the overall weak correlations highlight the limitations of using a single news source and a short timeframe.
 
     ▪️ Future research should expand data sources, extend the analysis period, and explore additional models to improve forecasting accuracy across more economic variables.
+
+---
+
+### ⚠️ Note: Mojibake may occur with "preprocessed_data.csv" and "See Hua (New).csv." 
+
+     To fix it, go to Data > Get External Data > From Text, select the file, and choose Unicode (UTF-8) encoding in the import wizard to display Mandarin characters correctly.
+
