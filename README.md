@@ -39,6 +39,7 @@ The questions that this study aims to address are outlined as follows:
 #### Aim:
 
     To assess the role of Mandarin news sentiment in forecasting Malaysia's GDP and its four demand components: private investment, private consumption, imports, and exports using machine learning techniques.
+    
 
 #### Objectives: 
 
@@ -47,6 +48,7 @@ The questions that this study aims to address are outlined as follows:
     ▪️ To compare the predictive performance of Mandarin news sentiment with English news sentiment as reported by previous studies.
     
     ▪️ To determine the correlation between GDP's demand-side components and the constructed news sentiment index.
+    
 
 #### 📌 Scope of the Study 
 
@@ -61,9 +63,77 @@ The questions that this study aims to address are outlined as follows:
     ▪️ The study focuses on the predictive power of Mandarin news sentiment for forecasting Malaysia’s GDP, due to time and resource constraints.
     
     ▪️ Although high-frequency indicators are used in nowcasting, the study applies them to a quarterly forecasting task due to the available data.
+    
+
+#### 📌 Significance of the Study 
+
+    ▪️ Fills gap in sentiment analysis, focusing on Mandarin in multilingual, multiethnic contexts.
+    
+    ▪️ Provides a benchmark for research in other multilingual economies on economic sentiment.
+    
+    ▪️ Enhances local forecasting of macroeconomic variables using news sentiment in Malaysia.
+
+    ▪️ Aims to help policymakers improve economic trend forecasts for Malaysia's specific dynamics.
+
+
+---
+
+### CHAPTER 2: LITERATURE REVIEW
+
+Provides a foundation for understanding the scope of the study and highlights existing research gaps. It covers four main areas:
+
+    ▪️ Adoption of news sentiment for forecasting macroeconomic indicators like GDP growth, inflation, and unemployment.
+    
+    ▪️ Sentiment analysis of vernacular languages with a focus on Chinese, particularly in economic and financial contexts.
+    
+    ▪️ Application of machine learning models in sentiment analysis and their effectiveness in economic forecasting.
+    
+    ▪️ A review of the work by Chong et al. (2021), which forms the basis for this study.
+
+#### 📌 Forecasting Key Economic Indicators through News Sentiments
+
+    ▪️ News sentiment has been widely used for forecasting GDP, inflation, and unemployment.
+    
+    ▪️ There is a need for domain-specific sentiment analysis tools, as generic models may not capture economic nuances effectively.
+    
+    ▪️ Researchers have recommended broader exploration of big data indicators and textual data, especially in multiple languages.
+    
+
+#### 📌 Multilingual Sentiment Analysis (Emphasis on Chinese Texts)
+
+    ▪️ There is significant work in sentiment analysis across various languages, but economic and financial texts in Chinese remain underexplored.
+    
+    ▪️ Studies have recommended culturally sensitive models and advanced techniques for real-time analysis, especially for platforms like Weibo.
+    
+    ▪️ Financial sentiment analysis in Chinese is scarce, highlighting the need for further research in this domain.
+
+
+#### 📌 Review of Machine Learning Models for Sentiment Analysis
+
+    ▪️ Machine learning models like Random Forest, Gradient Boosting, and LASSO show superior performance in economic forecasting.
+    
+    ▪️ Ensemble methods often yield more accurate results than individual models, especially for non-linear relationships and high-dimensional data.
+
+    
+#### 📌 Chong et al. (2021) and News Sentiment for Macroeconomic Forecasting
+
+    ▪️ Chong et al.’s work, which focuses on using news sentiment for economic forecasting in Malaysia, serves as a benchmark for this thesis.
+    
+    ▪️ Their research emphasizes the importance of using multiple lexicons and advanced techniques for sentiment scoring and economic forecasting.
+
+
+
+
+
+
+
+
+
 
 
 
     
+
+
 
 
