@@ -224,7 +224,7 @@ Modelling with Hyperparameter Tuning:
 
     ▪️ Time Series Plot: Shows the relationship between the News Sentiment Index and MIER’s BCI and CSI from 2022 Q1 to 2023 Q4. The sentiment index trends upward with some alignment to BCI, but both indices exhibit volatility, with weak correlations between sentiment and the economic indices.
 
-![Screenshot 2024-10-24 201616](https://github.com/user-attachments/assets/e8d790e4-7d20-4146-a0b2-787472a49310)
+![Screenshot 2024-10-25 175207](https://github.com/user-attachments/assets/c738d48e-fb01-4eb7-912f-dba8fdefae82)
 
 ![Screenshot 2024-10-24 201440](https://github.com/user-attachments/assets/da1b06e8-5c6a-4289-bb93-bf9ac1f9b96d)   
 
