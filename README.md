@@ -239,7 +239,7 @@ Modelling with Hyperparameter Tuning:
 
 #### 📌 5.2 Forecasting the Five Target Variables Using the News Sentiment Index
 
-![Screenshot 2024-10-24 202523](https://github.com/user-attachments/assets/7b463c30-2117-4832-9c7f-41b9747f8008)
+![Screenshot 2024-10-25 180034](https://github.com/user-attachments/assets/e9e20059-78b0-41cb-814c-bf032aa78438)
 
     ▪️ Pearson Correlation: Correlation between the sentiment index and the five macroeconomic variables (GDP, private consumption, private investment, imports, and exports) was calculated. Most correlations were weak or negative.
 
