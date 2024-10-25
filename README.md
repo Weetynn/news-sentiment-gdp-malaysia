@@ -37,12 +37,12 @@ The questions that this study aims to address are outlined as follows:
 
 #### 📌 1.3 Aim and Objectives 
 
-#### Aim:
+Aim:
 
     To assess the role of Mandarin news sentiment in forecasting Malaysia's GDP and its four demand components: private investment, private consumption, imports, and exports using machine learning techniques.
     
 
-#### Objectives: 
+Objectives: 
 
     ▪️ To evaluate the effectiveness of Mandarin news sentiment in predicting Business Confidence Index (BCI) and Consumer Sentiment Index (CSI).
     
